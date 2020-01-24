@@ -129,7 +129,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">3 Days</div><a href="#" onclick=tidioChatApi.messageFromVisitor("Book a Tour"); class="button w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">3 Days</div><a href="#" id="click_me" class="button w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -144,7 +144,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">4 Days</div><a href="#" tidioChatApi.messageFromVisitor("Book a Tour"); class="button w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">4 Days</div><a href="#" id="click_me" class="button w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -159,7 +159,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">4 Days</div><a href="#" tidioChatApi.messageFromVisitor("Book a Tour"); class="button w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">4 Days</div><a href="#" id="click_me" class="button w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -177,7 +177,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">7 Days</div><a href="#" tidioChatApi.messageFromVisitor("Book a Tour"); class="button-tab2 w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">7 Days</div><a href="#" onclick="tidioChatApi.open()" class="button-tab2 w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -347,5 +347,11 @@
       document.addEventListener("tidioChat-ready", onTidioChatApiReady);
     }
   })();</script>
+  <script type="text/javascript">
+    $(function(){ // I use jQuery in this example
+        document.getElementById('click_me').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Message from visitor!"); };
+    });
+ </script>
 </body>
 </html>

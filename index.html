@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Jan 24 2020 07:13:42 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Jan 24 2020 10:41:57 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e26eed16f517b848baac379" data-wf-site="5e26eed16f517b7f9caac378">
 <head>
   <meta charset="utf-8">
@@ -129,7 +129,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">3 Days</div><a href="#" id="click_me" class="button w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">3 Days</div><a id="click_me1" href="#" class="button w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -144,7 +144,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">4 Days</div><a href="#" id="click_me" class="button w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">4 Days</div><a id="click_me2" href="#" class="button w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -159,7 +159,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">4 Days</div><a href="#" id="click_me" class="button w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">4 Days</div><a id="click_me3" href="#" class="button w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -177,7 +177,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">7 Days</div><a href="#" onclick="tidioChatApi.open()" class="button-tab2 w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">7 Days</div><a id="click_me4" href="#" class="button-tab2 w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -225,7 +225,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">6 Days</div><a href="#" class="button-tab3 w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">6 Days</div><a id="click_me5" href="#" class="button-tab3 w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -240,7 +240,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">6 Days</div><a href="#" class="button button-3-tab3 w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">6 Days</div><a id="click_me6" href="#" class="button button-3-tab3 w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -255,7 +255,7 @@
                       <div class="duration-div">
                         <div class="duration-div-2">
                           <div class="text-block-2"><strong></strong></div>
-                          <div class="text-block-heading2-copy1">8 Days</div><a href="#" class="button button-3-tab3 w-button">Book Now</a></div>
+                          <div class="text-block-heading2-copy1">8 Days</div><a id="click_me7" href="#" class="button button-3-tab3 w-button">Book Now</a></div>
                       </div>
                     </div>
                   </div>
@@ -268,9 +268,9 @@
   </div>
   <div class="home-sec-3">
     <div class="home-sec-3-div">
-      <div class="home-sec-3-cont w-container">
+      <div id="book" class="home-sec-3-cont w-container">
         <h1 class="heading1-white">Book Your Tour Now!</h1>
-        <p class="paragraph1-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><a href="#" class="button-2 w-button">Book Tour</a></div>
+        <p class="paragraph1-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><a id="click_me" href="#" class="button-2 w-button">Book Tour</a></div>
       <div class="home-sec-3-divider-cont w-container">
         <div class="div-block-2"></div>
       </div>
@@ -350,7 +350,21 @@
   <script type="text/javascript">
     $(function(){ // I use jQuery in this example
         document.getElementById('click_me').onclick = 
-            function () { tidioChatApi.messageFromVisitor("Message from visitor!"); };
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me1').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me2').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me3').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me4').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me5').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me6').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
+        document.getElementById('click_me7').onclick = 
+            function () { tidioChatApi.messageFromVisitor("Book a Tour"); };
     });
  </script>
 </body>

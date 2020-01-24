@@ -2,7 +2,7 @@
 
 /index.html            		/
 /about.html 			/about
-/domestic-tours.html   		/domestic-tours
-/international-tours.html	/international-tours
-/special-tours.html		/special-tours
+/tours/domestic-tours.html	/tours/domestic-tours
+/tours/international-tours.html	/tours/international-tours
+/tours/special-tours.html	/tours/special-tours
 /contact.html			/contact

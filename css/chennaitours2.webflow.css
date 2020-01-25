@@ -510,7 +510,7 @@
 }
 
 .button-2 {
-  margin-top: 0px;
+  margin-top: 14px;
   padding: 10px 27px;
   border: 1px solid #fff;
   background-color: transparent;
@@ -972,10 +972,11 @@
 
 .domestic-hero-div {
   height: 50vh;
-  background-image: url('../images/indian-865394_1920.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/VARANASI-2371751_1920_723_480.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/VARANASI-2371751_1920_723_480.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .domestic-sec-div {
@@ -998,10 +999,11 @@
 
 .international-hero-div {
   height: 50vh;
-  background-image: url('../images/indian-865394_1920.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/1200PX-MUKTINATH_TEMPLE_1024_768.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/1200PX-MUKTINATH_TEMPLE_1024_768.jpeg');
+  background-position: 0px 0px, 50% 10%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .international-sec-div {
@@ -1011,10 +1013,11 @@
 
 .special-hero-div {
   height: 50vh;
-  background-image: url('../images/indian-865394_1920.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/asia-275954_1280.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/asia-275954_1280.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .special-sec-div {
@@ -1050,10 +1053,11 @@
 
 .about-hero-div {
   height: 50vh;
-  background-image: url('../images/indian-865394_1920.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 66, 76, 0.2)), to(rgba(246, 66, 76, 0.2))), url('../images/indian-865394_1920.jpg');
+  background-image: linear-gradient(180deg, rgba(246, 66, 76, 0.2), rgba(246, 66, 76, 0.2)), url('../images/indian-865394_1920.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .about-sec1-div {
@@ -1111,6 +1115,153 @@
   padding-top: 10px;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+}
+
+.text-block-heading2-white {
+  padding-top: 15px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.form-block {
+  padding-right: 223px;
+  padding-left: 223px;
+}
+
+.text-field {
+  border: 1px solid #fff;
+  background-color: hsla(0, 0%, 100%, 0);
+  color: hsla(0, 0%, 100%, 0.55);
+}
+
+.text-field::-webkit-input-placeholder {
+  color: hsla(0, 0%, 100%, 0.55);
+}
+
+.text-field:-ms-input-placeholder {
+  color: hsla(0, 0%, 100%, 0.55);
+}
+
+.text-field::-ms-input-placeholder {
+  color: hsla(0, 0%, 100%, 0.55);
+}
+
+.text-field::placeholder {
+  color: hsla(0, 0%, 100%, 0.55);
+}
+
+.text-block-heading2-white-copy {
+  padding-top: 0px;
+  padding-right: 30px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.success-message {
+  background-color: transparent;
+}
+
+.error-message {
+  margin-top: 20px;
+  background-color: rgba(190, 26, 26, 0.51);
+}
+
+.contact-hero-div {
+  height: 50vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 66, 76, 0.2)), to(rgba(246, 66, 76, 0.2))), url('../images/businessman-2956974_1920.jpg');
+  background-image: linear-gradient(180deg, rgba(246, 66, 76, 0.2), rgba(246, 66, 76, 0.2)), url('../images/businessman-2956974_1920.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.contact-sec1-div {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 120, 180, 0.85)), to(rgba(26, 120, 180, 0.85))), url('../images/varanasi-1370505_1920.jpg');
+  background-image: linear-gradient(180deg, rgba(26, 120, 180, 0.85), rgba(26, 120, 180, 0.85)), url('../images/varanasi-1370505_1920.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.contact-sec1-cont {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-block-enquiry {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.heading1-white-copy {
+  margin-top: 15px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  text-align: center;
+}
+
+.heading1-white-copy-contact {
+  margin-top: 15px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+}
+
+.text-block-heading2-white-contact {
+  margin-bottom: 40px;
+  padding-top: 15px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.gallery-sec1-div {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/ship-4582737_1920.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ship-4582737_1920.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.gallery-sec1-cont {
+  display: block;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.gallery-sec1-cont-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lightbox-link {
+  border: 1px solid #fff;
 }
 
 @media (max-width: 991px) {
@@ -1298,6 +1449,18 @@
   .about-hero-div {
     height: 60vh;
     background-position: 75% 50%;
+  }
+  .form-block {
+    padding-right: 170px;
+    padding-left: 170px;
+  }
+  .contact-hero-div {
+    height: 60vh;
+    background-position: 75% 50%;
+  }
+  .form-block-enquiry {
+    padding-right: 12px;
+    padding-left: 12px;
   }
 }
 
@@ -1615,6 +1778,26 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .form-block {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .contact-hero-div {
+    height: 60vh;
+    background-position: 45% 50%;
+  }
+  .form-block-enquiry {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .gallery-sec1-cont-div {
+    padding: 28px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1716,6 +1899,18 @@
   .about-hero-div {
     height: 60vh;
     background-position: 25% 50%;
+  }
+  .form-block {
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+  .contact-hero-div {
+    height: 60vh;
+    background-position: 25% 50%;
+  }
+  .form-block-enquiry {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 

@@ -1298,7 +1298,7 @@
 }
 
 .text-block-heading2-white-contact {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-top: 15px;
   font-family: Inconsolata, monospace;
   color: #fff;
@@ -1551,6 +1551,55 @@
 .icon-div-top-inside-copy {
   padding-right: 4px;
   padding-left: 4px;
+}
+
+.columns-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact-number-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Fa solid 900', sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.text-block-heading2-white-contact-copy {
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: capitalize;
 }
 
 @media (max-width: 991px) {
@@ -2198,6 +2247,9 @@
   .paragraph1-white-copy-icon {
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .columns-3 {
+    display: block;
   }
 }
 

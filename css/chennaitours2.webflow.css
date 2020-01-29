@@ -57,6 +57,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 10px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -451,7 +452,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
+  margin-top: 43.5px;
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: rgba(246, 66, 76, 0.79);
@@ -468,7 +469,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
+  margin-top: 43.5px;
   background-color: rgba(246, 66, 76, 0.79);
 }
 
@@ -1388,10 +1389,11 @@
 }
 
 .div-block-4 {
-  height: 700px;
-  background-image: url('../images/Slide-1a.jpg');
-  background-position: 0px 0px;
+  height: 600px;
+  background-image: url('../images/baba-vishwanath-temple_1462410529.jpeg');
+  background-position: 50% 35%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide {
@@ -1399,7 +1401,7 @@
 }
 
 .slider {
-  height: 700px;
+  height: 600px;
 }
 
 .div-block-4-copy {
@@ -1418,10 +1420,11 @@
 }
 
 .div-block-4-slide-2 {
-  height: 700px;
-  background-image: url('../images/Slide-2a.jpg');
-  background-position: 0px 0px;
+  height: 600px;
+  background-image: url('../images/kedarnath1big.jpg');
+  background-position: 50% 30%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .div-block-4-copy-slide-2 {
@@ -1433,9 +1436,9 @@
 }
 
 .div-block-4-slide-3 {
-  height: 700px;
-  background-image: url('../images/Slide-3.jpg');
-  background-position: 0px 0px;
+  height: 600px;
+  background-image: url('../images/Badrinath_temple_UKa2.jpg');
+  background-position: 50% 65%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1662,8 +1665,9 @@
   }
   .div-block-4-copy {
     display: block;
-    background-image: url('../images/Slide-1a1.jpg');
-    background-position: 100% 100%;
+    height: 600px;
+    background-image: url('../images/baba-vishwanath-temple_1462410529a.jpeg');
+    background-position: 100% 50%;
     background-repeat: no-repeat;
   }
   .div-block-4-slide-2 {
@@ -1672,8 +1676,9 @@
   }
   .div-block-4-copy-slide-2 {
     display: block;
-    background-image: url('../images/Slide-2a1.jpg');
-    background-position: 0% 100%;
+    height: 600px;
+    background-image: url('../images/kedarnath1biga1.jpg');
+    background-position: 50% 0%;
     background-repeat: no-repeat;
   }
   .div-block-4-slide-3 {
@@ -1682,8 +1687,9 @@
   }
   .div-block-4-copy-slide-3 {
     display: block;
-    background-image: url('../images/Slide-3a.jpg');
-    background-position: 0% 100%;
+    height: 600px;
+    background-image: url('../images/Badrinath_temple_UKa1.jpg');
+    background-position: 50% 50%;
     background-repeat: no-repeat;
   }
 }

@@ -76,7 +76,7 @@
 }
 
 .home-tabs-sec {
-  background-image: url('../images/ship-4582737_1920.jpg');
+  background-image: image-set( url('../images/ship-4582737_1920.webp') url('../images/ship-4582737_1920.jpg'));
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1265,8 +1265,8 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 120, 180, 0.85)), to(rgba(26, 120, 180, 0.85))), url('../images/varanasi-1370505_1920.jpg');
-  background-image: linear-gradient(180deg, rgba(26, 120, 180, 0.85), rgba(26, 120, 180, 0.85)), url('../images/varanasi-1370505_1920.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 120, 180, 0.85)), to(rgba(26, 120, 180, 0.85))), image-set( url('../images/varanasi-1370505_1920.webp') url('../images/varanasi-1370505_1920.jpg'));
+  background-image: linear-gradient(180deg, rgba(26, 120, 180, 0.85), rgba(26, 120, 180, 0.85)), image-set( url('../images/varanasi-1370505_1920.webp') url('../images/varanasi-1370505_1920.jpg'));
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1312,8 +1312,8 @@
 .gallery-sec1-div {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/ship-4582737_1920.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ship-4582737_1920.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), image-set( url('../images/ship-4582737_1920.webp') url('../images/ship-4582737_1920.jpg'));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), image-set( url('../images/ship-4582737_1920.webp') url('../images/ship-4582737_1920.jpg'));
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1818,7 +1818,7 @@
   .div-block-4-copy {
     display: block;
     height: 600px;
-    background-image: url('../images/baba-vishwanath-temple_1462410529a.jpeg');
+    background-image: image-set( url('../images/baba-vishwanath-temple_1462410529a.webp') url('../images/baba-vishwanath-temple_1462410529a.jpeg'));
     background-position: 100% 50%;
     background-repeat: no-repeat;
   }
@@ -1829,7 +1829,7 @@
   .div-block-4-copy-slide-2 {
     display: block;
     height: 600px;
-    background-image: url('../images/kedarnath1biga1.jpg');
+    background-image: image-set( url('../images/kedarnath1biga1.webp') url('../images/kedarnath1biga1.jpg'));
     background-position: 50% 0%;
     background-repeat: no-repeat;
   }
@@ -1840,7 +1840,7 @@
   .div-block-4-copy-slide-3 {
     display: block;
     height: 600px;
-    background-image: url('../images/Badrinath_temple_UKa1.jpg');
+    background-image: image-set( url('../images/Badrinath_temple_UKa1.webp') url('../images/Badrinath_temple_UKa1.jpg'));
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }

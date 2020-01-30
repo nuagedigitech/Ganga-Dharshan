@@ -2316,7 +2316,7 @@
 
 @media (max-width: 479px) {
   .heading-logo {
-    display: block;
+    display: none;
     font-size: 16px;
     letter-spacing: 1px;
   }

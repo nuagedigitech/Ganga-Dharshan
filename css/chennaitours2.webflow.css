@@ -38,6 +38,11 @@
   text-decoration: none;
 }
 
+.logo-link-block.w--current {
+  position: relative;
+  left: -120px;
+}
+
 .heading-logo {
   padding-left: 10px;
   font-family: Neuton, sans-serif;
@@ -48,8 +53,8 @@
 }
 
 .home-nav-div-3 {
-  position: absolute;
-  left: auto;
+  position: relative;
+  left: 80px;
   top: 0%;
   right: 0%;
   bottom: 0%;
@@ -57,7 +62,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 10px;
+  margin-left: 20px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;

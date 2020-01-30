@@ -1652,6 +1652,15 @@
   text-align: center;
 }
 
+.heading-logo-footer {
+  padding-left: 10px;
+  font-family: Neuton, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 @media (max-width: 991px) {
   .home-nav-div-2 {
     display: none;
@@ -1893,6 +1902,10 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
+  .heading-logo-footer {
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1903,6 +1916,7 @@
   .paragraph1 {
     padding-right: 10px;
     padding-left: 10px;
+    text-align: justify;
   }
   .home-tab-div-tab-1 {
     width: 80px;
@@ -2035,6 +2049,10 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .footer-nav-links-div1 {
     padding-right: 10px;
@@ -2485,6 +2503,11 @@
   .icon-div-top-inside-copy {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .heading-logo-footer {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
 }
 

@@ -26,6 +26,8 @@
 }
 
 .logo-link-block {
+  position: relative;
+  left: -120px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

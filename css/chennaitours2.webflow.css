@@ -1408,9 +1408,9 @@
 }
 
 .div-block-4 {
-  height: 600px;
-  background-image: url('../images/baba-vishwanath-temple_1462410529.jpeg');
-  background-position: 50% 35%;
+  height: 760px;
+  background-image: url('../images/baba-vishwanath-temple_1462410529b.jpeg');
+  background-position: 50% 15%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1420,7 +1420,7 @@
 }
 
 .slider {
-  height: 600px;
+  height: 760px;
 }
 
 .div-block-4-copy {
@@ -1439,9 +1439,9 @@
 }
 
 .div-block-4-slide-2 {
-  height: 600px;
+  height: 760px;
   background-image: url('../images/kedarnath1big.jpg');
-  background-position: 50% 30%;
+  background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1455,7 +1455,7 @@
 }
 
 .div-block-4-slide-3 {
-  height: 600px;
+  height: 760px;
   background-image: url('../images/Badrinath_temple_UKa2.jpg');
   background-position: 50% 65%;
   background-size: cover;
@@ -1661,6 +1661,11 @@
   line-height: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.slider-mobile {
+  display: none;
+  height: 760px;
 }
 
 @media (max-width: 991px) {
@@ -1872,6 +1877,9 @@
     display: none;
     background-position: 100% 50%;
   }
+  .slider {
+    display: none;
+  }
   .div-block-4-copy {
     background-position: 0% 50%;
   }
@@ -1879,7 +1887,7 @@
     display: block;
     height: 600px;
     background-image: url('../images/baba-vishwanath-temple_1462410529a.jpeg');
-    background-position: 100% 50%;
+    background-position: 100% 20%;
     background-repeat: no-repeat;
   }
   .div-block-4-slide-2 {
@@ -1907,6 +1915,10 @@
   .heading-logo-footer {
     font-size: 20px;
     line-height: 26px;
+  }
+  .slider-mobile {
+    display: block;
+    height: 600px;
   }
 }
 
@@ -2337,6 +2349,9 @@
     -ms-flex-align: center;
     align-items: center;
   }
+  .slider-mobile {
+    height: 600px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -2510,6 +2525,9 @@
     display: block;
     font-size: 16px;
     letter-spacing: 1px;
+  }
+  .slider-mobile {
+    height: 400px;
   }
 }
 

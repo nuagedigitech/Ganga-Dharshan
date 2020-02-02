@@ -1727,6 +1727,10 @@
     height: 150px;
     background-size: auto 130px;
   }
+  .tab-link-tab-1 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
   .tab-link-tab-1.w--current {
     margin-right: 15px;
     margin-left: 15px;
@@ -1973,6 +1977,8 @@
   }
   .tab-link-tab-1 {
     margin-top: 20px;
+    padding-right: 9px;
+    padding-left: 9px;
   }
   .tab-link-tab-1.w--current {
     margin-top: 20px;
@@ -2383,6 +2389,10 @@
   .home-hero-div {
     height: auto;
     background-image: none;
+  }
+  .tab-link-tab-1 {
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .tab-link-tab-1.w--current {
     margin-right: 10px;

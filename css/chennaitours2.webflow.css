@@ -48,9 +48,9 @@
 .heading-logo {
   padding-left: 10px;
   font-family: Neuton, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -439,16 +439,23 @@
 }
 
 .link-block {
+  padding: 20px 40px 20px 20px;
   color: #333;
   text-decoration: none;
 }
 
+.link-block.w--current {
+  padding: 20px 40px 20px 20px;
+}
+
 .link-block-2 {
+  padding: 20px 40px 20px 20px;
   color: #333;
   text-decoration: none;
 }
 
 .link-block-3 {
+  padding: 20px;
   color: #333;
   text-decoration: none;
 }
@@ -1636,9 +1643,9 @@
 .heading-logo-footer {
   padding-left: 10px;
   font-family: Neuton, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -1711,7 +1718,7 @@
     display: none;
   }
   .heading-logo {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 26px;
   }
   .text-block-nav-link {
@@ -1961,6 +1968,9 @@
 }
 
 @media (max-width: 767px) {
+  .heading-logo {
+    font-size: 16px;
+  }
   .home-hero-div {
     height: auto;
     background-image: none;
@@ -2545,8 +2555,8 @@
   }
   .heading-logo-footer {
     display: block;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 15px;
+    letter-spacing: 0px;
   }
   .slider-mobile {
     height: 400px;

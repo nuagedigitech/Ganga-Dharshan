@@ -779,6 +779,17 @@
   text-align: right;
 }
 
+.column-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .footer-nav-links-div1-copy {
   margin-right: 0px;
 }
@@ -2459,6 +2470,10 @@
   }
   .column-3 {
     margin-top: 20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     text-align: left;
   }
   .footer-nav-links-div1-copy {

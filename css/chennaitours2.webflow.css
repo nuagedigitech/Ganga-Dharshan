@@ -96,7 +96,7 @@
 }
 
 .text-block-heading2 {
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #000;
   font-size: 20px;
   line-height: 30px;
@@ -107,7 +107,7 @@
 
 .heading1 {
   margin-top: 15px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   text-align: center;
 }
 
@@ -321,7 +321,7 @@
 .heading2 {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 20px;
   text-align: left;
 }
@@ -387,7 +387,11 @@
   bottom: 0%;
   padding: 6px;
   background-color: #328008;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.button.button-3-tab3 {
+  font-family: 'PT Sans', sans-serif;
 }
 
 .home-tabs1-div2a {
@@ -505,7 +509,7 @@
 
 .heading1-white {
   margin-top: 15px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -530,7 +534,7 @@
   padding: 10px 27px;
   border: 1px solid #fff;
   background-color: transparent;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -541,7 +545,7 @@
 
 .heading1-white-copy {
   margin-top: 0px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 24px;
   line-height: 30px;
@@ -549,7 +553,7 @@
 }
 
 .text-block-heading2-copy {
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 16px;
   line-height: 24px;
@@ -597,7 +601,7 @@
 .text-block-4 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 32px;
   line-height: 40px;
@@ -671,7 +675,7 @@
   padding: 10px 27px;
   border: 1px none #fff;
   background-color: #fff;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #1d699c;
   font-size: 16px;
 }
@@ -773,7 +777,7 @@
 
 .text-block-heading2-black {
   margin-top: 20px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #000;
   font-size: 24px;
   line-height: 30px;
@@ -915,6 +919,7 @@
 .button-3 {
   margin-top: 40px;
   background-color: #328008;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .tab-pane-tab-2 {
@@ -924,6 +929,7 @@
 .button-3-tab2 {
   margin-top: 40px;
   background-color: #8083b8;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .button-tab2 {
@@ -934,7 +940,7 @@
   bottom: 0%;
   padding: 6px;
   background-color: #8083b8;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .tab-pane-tab-3 {
@@ -944,6 +950,7 @@
 .button-3-tab3 {
   margin-top: 40px;
   background-color: #f6424c;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .button-tab3 {
@@ -954,7 +961,7 @@
   bottom: 0%;
   padding: 6px;
   background-color: #f6424c;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .dropdown-link {
@@ -1173,7 +1180,7 @@
 .heading1-copy {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -1188,7 +1195,7 @@
 
 .text-block-heading2-white {
   padding-top: 15px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 30px;
@@ -1291,7 +1298,7 @@
 
 .heading1-white-copy-contact {
   margin-top: 15px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 24px;
   text-align: left;
@@ -1300,9 +1307,9 @@
 .text-block-heading2-white-contact {
   margin-bottom: 20px;
   padding-top: 15px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 400;
   text-align: left;
@@ -1369,7 +1376,7 @@
 
 .heading-white {
   padding-left: 10px;
-  font-family: Varela, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
@@ -1379,7 +1386,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
-  font-family: Varela, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 16px;
 }
@@ -1391,7 +1398,7 @@
 
 .heading1-copy-2 {
   margin-top: 0px;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   text-align: center;
   letter-spacing: 3px;
@@ -1606,9 +1613,9 @@
   margin-bottom: 20px;
   padding-top: 15px;
   padding-left: 10px;
-  font-family: Inconsolata, monospace;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 400;
   text-align: left;
@@ -1696,7 +1703,7 @@
   padding: 10px 27px;
   border: 1px solid #fff;
   background-color: transparent;
-  font-family: Montserrat, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
 }
 

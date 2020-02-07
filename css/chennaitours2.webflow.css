@@ -552,6 +552,11 @@
   text-align: justify;
 }
 
+.heading1-white-copy.font-change {
+  font-family: 'PT Sans', sans-serif;
+  text-align: justify;
+}
+
 .text-block-heading2-copy {
   font-family: 'PT Sans', sans-serif;
   color: #fff;
@@ -1309,7 +1314,7 @@
   padding-top: 15px;
   font-family: 'PT Sans', sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   text-align: left;
@@ -1615,7 +1620,7 @@
   padding-left: 10px;
   font-family: 'PT Sans', sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   text-align: left;
